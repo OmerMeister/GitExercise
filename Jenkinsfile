@@ -5,7 +5,7 @@ pipeline {
         stage('Run Python Script') {
             steps {
                 // Clone the GitHub repository
-                bat 'git clone https://github.com/OmerMeister/GitExercise.git.git'
+                bat 'git clone https://github.com/OmerMeister/GitExercise.git'
 
                 // Install Python dependencies (if required)
                 bat 'pip install -r requirements.txt'
