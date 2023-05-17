@@ -1,3 +1,4 @@
+import datetime
 import math
 
 pi = math.pi
@@ -8,6 +9,10 @@ def circle_hekef(r):
 def circle_area(r):
     return r * r * pi
 
+def now():
+    return datetime.datetime.now()
+
 print("lo amarti cushi")
+print(now())
 
 
