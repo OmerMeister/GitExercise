@@ -14,6 +14,9 @@ def circle_area(r):
 def now():
     return datetime.datetime.now()
 
+def newscreen():
+    print("New Screen")
+
 print("lo amarti cushi")
 print("lo amarti joe joe")
 print(now())
