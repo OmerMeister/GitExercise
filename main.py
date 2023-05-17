@@ -13,6 +13,7 @@ def now():
     return datetime.datetime.now()
 
 print("lo amarti cushi")
+print("lo amarti joe joe")
 print(now())
 
 
